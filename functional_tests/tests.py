@@ -71,6 +71,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.browser.quit()
         self.browser = webdriver.Firefox()
 
+
         # Francis visits the home page, there is no sign of edith's list
         self.browser.get(self.server_url)
         page_text = self.browser.find_element_by_tag_name('body').text
