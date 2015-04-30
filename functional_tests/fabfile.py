@@ -1,5 +1,6 @@
 from fabric.api import env, run
 
+
 def _get_base_folder(host):
     return '~/sites/' + host
 
@@ -21,3 +22,4 @@ def create_session_on_server(email):
         email=email,
     ))
     print(session_key)
+

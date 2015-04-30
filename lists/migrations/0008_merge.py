@@ -7,13 +7,9 @@ from django.db import models, migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('lists', '0001_initial'),
+        ('lists', '0007_list_owner'),
+        ('lists', '0006_list_owner'),
     ]
 
     operations = [
-        migrations.AddField(
-            model_name='item',
-            name='text',
-            field=models.TextField(default=''),
-        ),
     ]
