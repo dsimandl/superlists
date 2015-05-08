@@ -4,4 +4,5 @@ __pycache__
 *pyc
 database
 static
-*.DS_Store
+*.DS_Storefunctional_tests/screendumps
+
